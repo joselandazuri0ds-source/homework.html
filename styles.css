@@ -3,7 +3,18 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ul {
+        list-style-position: inside;
+        text-align: center;
+    }
+    color: white;
+    font-family: Arial,
+    sans-serif;
+    font-family: 'Segoe UI',
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
     text-align: center;
     background-image: url('https://media.istockphoto.com/id/2160056114/es/foto/submarino-en-mar-azul-claro-con-arena-agua-con-sol-abstracto.jpg?s=612x612&w=0&k=20&c=v963lxp2BWbqfx_INsGEIdE-CubchTrJbb0i1p3qvyU=');
     background-size: cover;
@@ -71,17 +82,12 @@ ul {
     gap: 30px;
     flex-wrap: wrap;
     flex-direction: column;
-    /* 👈 IMÁGENES UNA DEBAJO DE LA OTRA */
     align-items: center;
 }
-
-
-/* 👇 BORDE AZUL MÁS DELGADO AROUND LAS IMÁGENES */
 
 li {
     background-color: #007bff;
     padding: 4px;
-    /* antes probablemente era 20-30px, ahora más delgado */
     border-radius: 5px;
 }
 
